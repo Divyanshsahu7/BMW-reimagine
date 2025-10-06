@@ -1,0 +1,368 @@
+body {
+    margin: 0px;
+    background-color: transparent;
+    zoom: 100%;
+    background-color: black;
+
+}
+
+/* Fullscreen centered video */
+#myvedio {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: -1;
+    /* Keep video behind any content */
+}
+
+#nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    /* ADD */
+    padding: 0;
+
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-left: 0;
+    /* Change: 120px se 0 */
+    margin-top: 0px;
+    display: flex;
+}
+
+#nav ul li a:hover {
+    color: gray;
+}
+
+#nav ul li {
+    display: flex;
+}
+
+#navdiv {
+    position: absolute;
+    width: 800px;
+    top: 40px;
+    left: 110px;
+}
+
+img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 90px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+nav {
+    position: sticky;
+}
+
+#main {
+    width: 2250px;
+    height: 500px;
+    top: 900px;
+    left: 10px;
+    position: relative;
+    background-color: #1e2122;
+
+}
+
+#indiv1 {
+    width: 450px;
+    height: 450px;
+    background-color: #1e2122;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 30px;
+}
+
+#indiv2 {
+    width: 450px;
+    height: 450px;
+    background-color: #1e2122;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    left: 856px;
+}
+
+#indiv3 {
+    width: 450px;
+    height: 450px;
+    background-color: #1e2122;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+
+}
+
+#image1 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+#H {
+    padding-left: 90px;
+    padding-top: 300px;
+    font-size: 40px;
+    color: white;
+}
+
+#image2 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+#H1 {
+    padding-left: 90px;
+    padding-top: 300px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+#image3 {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 80px;
+}
+
+#H3 {
+    padding-left: 90px;
+    padding-top: 300px;
+    font-size: 40px;
+    color: white;
+}
+
+#about {
+    width: 2100px;
+    height: 700px;
+    position: relative;
+    z-index: 1;
+    margin-top: 1000px;
+    margin-left: 100px;
+}
+
+#ab {
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 50px;
+}
+
+p {
+    color: aliceblue;
+    padding-top: 5px;
+    font-size: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p:hover {
+    color: gray;
+}
+
+#ecar1 {
+    width: 2300px;
+
+    height: 450px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url(ecar5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#ecar2 {
+    width: 2300px;
+
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url(ecar4.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ecar3 {
+    width: 2300px;
+
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url(ecar3.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#ecar4 {
+    width: 2300px;
+
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url(ecar2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#footer {
+    width: auto;
+    height: 800px;
+    background-color: #000000;
+    margin-top: 80px;
+    padding: 20px 20px;
+
+}
+#f1{
+    width: 500px;
+    height: 500px;
+    float: left;
+    background-color: #000000;
+    margin-top:20px;
+}
+#f2{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+#f3{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+#f4{
+    width: 500px;
+    height: 500px;
+    float: left;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+#upperfoot {
+    width: 1000px;
+    height: 100px;
+    padding-left: 5px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* text left, button right */
+    align-items: center;
+
+}
+
+#fh {
+    color: #FFFFFF;
+    font-family: Helvetica Neue, sans-serif;
+}
+
+#button {
+    color: rgb(203, 203, 203);
+    width: 150px;
+    height: 60px;
+    background-color: rgb(40, 138, 204);
+}
+
+#signup {
+    text-decoration: none;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+#signup:hover {
+    color: grey;
+}
+
+#enddiv {
+    width: auto;
+    height: 250px;
+    margin-top: 40px;
+}
+
+#smedia {
+    width: 800px;
+    height: 150px;
+    margin-left: 710px;
+}
+
+.fa {
+    padding: 3%;
+    margin: 25px 20px 30px 75px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #000000;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #000000;
+    color: white;
+}
+
+.fa-youtube {
+    background: #000000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #000000;
+    color: white;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 30px; 
+    color: white;
+   
+}
+ul li{
+    padding: 20px 10px;    
+}
+ul li a:hover{  
+ color: gray;
+}

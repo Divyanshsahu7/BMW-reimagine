@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BMW | Sign Up</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #000;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #111;
+      padding: 40px;
+      border-radius: 15px;
+      border: 1px solid #333;
+      max-width: 100%;
+      max-width: 400px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    }
+
+    .logo {
+      text-align: center;
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 22px;
+    }
+
+    label {
+      font-size: 14px;
+      display: block;
+      margin-bottom: 6px;
+      color: #ccc;
+    }
+
+    input {
+      width: 100%;
+      padding: 12px;
+      border-radius: 8px;
+      border: 1px solid #555;
+      background-color: #000;
+      color: #fff;
+      font-size: 14px;
+      margin-bottom: 18px;
+      outline: none;
+      transition: border 0.3s;
+    }
+
+    input:focus {
+      border: 1px solid #fff;
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #fff;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ccc;
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 13px;
+      margin-top: 20px;
+      color: #aaa;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">BMW</div>
+    <h2>Create Your Account</h2>
+    <form action="#">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="••••••••" required>
+
+      <button type="submit">Sign Up</button>
+    </form>
+    <div class="footer">
+      Already have an account? <a href="#">Log in</a>
+    </div>
+  </div>
+</body>
+</html>
